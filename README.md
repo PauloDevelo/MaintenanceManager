@@ -20,3 +20,7 @@ This software developped in Java allow to :
 
 Everything (tasks and entries) are saved in a XML file. 
 
+If you want to use this software without compiling everything, you can download the content of EngineMaintenance directory. A jar file can be launched with the bat file if you have installed java 8.0.
+
+Feedback would be appreciated !
+
