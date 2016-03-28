@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5"
+   name=""
+   committed-date="2014-11-26T23:35:59.310309Z"
+   url="svn://localhost/EngineMonitor/trunk/Tools/src/ecogium/tools/utils/generic/subscribableList"
+   last-author="paul"
+   kind="dir"
+   repos="svn://localhost"
+   revision="5"/>
+<entry
+   committed-rev="5"
+   name="IObject.java"
+   text-time="2014-08-03T17:36:59.319872Z"
+   committed-date="2014-11-26T23:35:59.310309Z"
+   checksum="cc6fcda4a60a628aab210024b62bdf9a"
+   last-author="paul"
+   kind="file"/>
+<entry
+   committed-rev="5"
+   name="MyList.java"
+   text-time="2014-08-03T17:36:59.304872Z"
+   committed-date="2014-11-26T23:35:59.310309Z"
+   checksum="358b6a4ae917503b7e94a67d35bd2512"
+   last-author="paul"
+   kind="file"/>
+<entry
+   committed-rev="5"
+   name="IListListenner.java"
+   text-time="2014-08-03T17:36:59.332873Z"
+   committed-date="2014-11-26T23:35:59.310309Z"
+   checksum="12d40e7073abb02b2f794afca76c2e52"
+   last-author="paul"
+   kind="file"/>
+</wc-entries>

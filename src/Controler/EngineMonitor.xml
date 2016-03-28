@@ -1,0 +1,551 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="C:\Users\Paul\workspace\EngineMonitor\trunk\Controler\HistoricEngine.xsl" type="text/xsl"?>
+<EngineMaintenance version="1.0">
+  <Engine brand="Nanni" type="N3.30" installation="25/01/2010">
+    <Age>1943.0</Age>
+    <PortCOM>COM4</PortCOM>
+  </Engine>
+  <ListTask>
+    <Task Id="Task_20">
+      <Name>Bouchon taré d'échangeur de température</Name>
+      <Description />
+      <Period>
+        <Month>24</Month>
+        <EngineHour>400</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_21">
+      <Name>Changement thermostat</Name>
+      <Description>Remplacement</Description>
+      <Period>
+        <Month>24</Month>
+        <EngineHour>400</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_22">
+      <Name>Changement de la courroie</Name>
+      <Description>Changer la courroie avec une neuve et garder 1 ou 2 courroie de rechange.</Description>
+      <Period>
+        <Month>48</Month>
+        <EngineHour>1000</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_23">
+      <Name>Changement joint spi du rotor à eau de mer</Name>
+      <Description>Changer le joint spi se trouvant sur l'axe à côté du rotor de la pompe à eau de mer.</Description>
+      <Period>
+        <Month>24</Month>
+        <EngineHour>500</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_24">
+      <Name>Anode de la ligne d'arbre</Name>
+      <Description>Vérification/Nettoyage de l'anode située en bout d'arbre d'hélice et changement si nécessaire.</Description>
+      <Period>
+        <Month>3</Month>
+        <EngineHour>-1</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_25">
+      <Name>Vidange inverseur</Name>
+      <Description>Huile de type ATF</Description>
+      <Period>
+        <Month>12</Month>
+        <EngineHour>400</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_26">
+      <Name>Carénage</Name>
+      <Description />
+      <Period>
+        <Month>12</Month>
+        <EngineHour>-1</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_27">
+      <Name>Nettoyage des fonds</Name>
+      <Description>Nettoyage des fonds et vérifier état de corrosion de la coque.</Description>
+      <Period>
+        <Month>12</Month>
+        <EngineHour>-1</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_17">
+      <Name>Tarage des injecteurs</Name>
+      <Description />
+      <Period>
+        <Month>24</Month>
+        <EngineHour>400</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_18">
+      <Name>Vidange liquide de refroidissement</Name>
+      <Description />
+      <Period>
+        <Month>24</Month>
+        <EngineHour>400</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_19">
+      <Name>Nettoyage du faisceau d'échangeur</Name>
+      <Description />
+      <Period>
+        <Month>24</Month>
+        <EngineHour>400</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_31">
+      <Name>Contrôle niveau 2</Name>
+      <Description>-Contrôle du cable d'accélérateur&#xD;
+-Contrôle de l'anode du coude d'échappement avec une clé à pipe de 17.&#xD;
+	-Le réservoir du liquide de refroidissement se déplace pour rendre l'anode accessible.&#xD;
+-Contrôle du serrage des vis et des colliers&#xD;
+-Contrôle de la fixation du bloc moteur&#xD;
+-Contrôle de la fixation de l'alternateur et du démarreur</Description>
+      <Period>
+        <Month>12</Month>
+        <EngineHour>200</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_10">
+      <Name>Changement pré-filtre à carburant</Name>
+      <Description>Remplacement du pré-filtre à carburant.</Description>
+      <Period>
+        <Month>12</Month>
+        <EngineHour>200</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_32">
+      <Name>Contrôle niveau 1</Name>
+      <Description>-Tension courroie&#xD;
+-Niveau d'huile moteur&#xD;
+-Niveau liquide de refroidissement&#xD;
+-Contrôle tension batterie moteur&#xD;
+-Niveau d'huile de l'inverseur</Description>
+      <Period>
+        <Month>12</Month>
+        <EngineHour>100</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_11">
+      <Name>Alignement du moteur</Name>
+      <Description>Vérification de la fixation du moteur, des suspensions et de l'alignement.</Description>
+      <Period>
+        <Month>12</Month>
+        <EngineHour>200</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_12">
+      <Name>Batteries</Name>
+      <Description>Vérifications des batteries</Description>
+      <Period>
+        <Month>12</Month>
+        <EngineHour>-1</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_13">
+      <Name>Vidange huile moteur</Name>
+      <Description>15W40</Description>
+      <Period>
+        <Month>12</Month>
+        <EngineHour>200</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_14">
+      <Name>Changement filtre à huile</Name>
+      <Description>Remplacement du filtre à huile</Description>
+      <Period>
+        <Month>12</Month>
+        <EngineHour>200</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_15">
+      <Name>Rinçage du système de refroidissement</Name>
+      <Description>Rinçage à l'eau douce.</Description>
+      <Period>
+        <Month>24</Month>
+        <EngineHour>400</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_16">
+      <Name>Jeu au soupapes</Name>
+      <Description>Controle des jeux aux soupapes</Description>
+      <Period>
+        <Month>24</Month>
+        <EngineHour>400</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_1">
+      <Name>Changement filtre à carburant</Name>
+      <Description>-Fermer le robinet de carburant&#xD;
+-Dévisser la cartouche de carburant à l'outil "sert-cartouche"&#xD;
+-Enduire le joint de la nouvelle cartouche avec de l'huile propre&#xD;
+-Visser la nouvelle cartouche sur la tête de filtre, puis serre à la main de 3/4 de tour sans outillage.&#xD;
+-Ouvrir le robinet de carburant&#xD;
+-Purger le circuit&#xD;
+-Démarrer le moteur et vérifier l'étanchéité</Description>
+      <Period>
+        <Month>12</Month>
+        <EngineHour>200</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_28">
+      <Name>Purge du pré-filtre à GO</Name>
+      <Description>Prélever un peu de GO dans un gobelet par la vis en plastique située sous le pré-filtre à GO.&#xD;
+Vérifier la présence d'eau dans le GO.</Description>
+      <Period>
+        <Month>12</Month>
+        <EngineHour>200</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_29">
+      <Name>Changement bague hydrolube</Name>
+      <Description>Contrôler et/ou changer la bague hydrolube.&#xD;
+1)Extraire l'hélice&#xD;
+2)Enlever les vis en plastique empèchant la rotation de la bague hydrolube&#xD;
+3) Nettoyer parfaitement l'axe et y mettre du savon (ou eau très savonneuse)&#xD;
+4)Avec une pince à étau, retirer la bague sans abimer l'arbre</Description>
+      <Period>
+        <Month>12</Month>
+        <EngineHour>400</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_9">
+      <Name>Nettoyage bloc moteur</Name>
+      <Description>Nettoyage et protection du moteur</Description>
+      <Period>
+        <Month>12</Month>
+        <EngineHour>400</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_7">
+      <Name>Rotor de pompe à eau de mer</Name>
+      <Description>Remplacer le rotor de pompe à eau de mer.</Description>
+      <Period>
+        <Month>12</Month>
+        <EngineHour>200</EngineHour>
+      </Period>
+    </Task>
+    <Task Id="Task_6">
+      <Name>Nettoyage filtre à air</Name>
+      <Description>Nettoyer le filtre à air</Description>
+      <Period>
+        <Month>12</Month>
+        <EngineHour>200</EngineHour>
+      </Period>
+    </Task>
+  </ListTask>
+  <Historic>
+    <Entry type="PONCT" name="Montage moteur">
+      <Date date="20100125" engine="0.0" />
+      <Remark>Montage moteur Nanni Diesel 30 cv 3 cylindres&#xD;
+Sud Plaisance à CANET (François PEREIRA)&#xD;
+04 68 73 11 13 - 06 50 41 33 19</Remark>
+    </Entry>
+    <Entry type="PONCT" name="Remplacement arbre d'hélice">
+      <Date date="20100125" engine="0.0" />
+      <Remark />
+    </Entry>
+    <Entry type="PONCT" name="Remplacement inverseur">
+      <Date date="20100125" engine="0.0" />
+      <Remark />
+    </Entry>
+    <Entry type="PONCT" name="Remplacement hélice">
+      <Date date="20100125" engine="0.0" />
+      <Remark>Hélice de MAUCOUR / NANTES</Remark>
+    </Entry>
+    <Entry type="PONCT" name="Essais moteur">
+      <Date date="20100407" engine="3.0" />
+      <Remark>Essais moteur PEREIRA -&gt; Modifier hélice</Remark>
+    </Entry>
+    <Entry type="PONCT" name="Chgmt hélice">
+      <Date date="20100611" engine="6.0" />
+      <Remark>Sortie d'eau dépose de l'hélice</Remark>
+    </Entry>
+    <Entry type="PONCT" name="Dépose hélice">
+      <Date date="20100628" engine="12.0" />
+      <Remark>Dépose hélice</Remark>
+    </Entry>
+    <Entry type="PONCT" name="Branchement alternateur">
+      <Date date="20101221" engine="135.0" />
+      <Remark>Branchement correct alternateur par électricien de ARGELES (Mr PITTE)</Remark>
+    </Entry>
+    <Entry type="Task_Task_24" name="Anode de la ligne d'arbre">
+      <Date date="20110711" engine="166.0" />
+      <Remark>Remplacement de l'anode usée à 40%.&#xD;
+Déblocage de l'anode en la chauffant.</Remark>
+    </Entry>
+    <Entry type="Task_Task_13" name="Vidange huile moteur">
+      <Date date="20100710" engine="23.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_14" name="Changement filtre à huile">
+      <Date date="20100710" engine="23.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_25" name="Vidange inverseur">
+      <Date date="20100713" engine="32.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_13" name="Vidange huile moteur">
+      <Date date="20100807" engine="100.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_14" name="Changement filtre à huile">
+      <Date date="20100807" engine="100.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_25" name="Vidange inverseur">
+      <Date date="20100807" engine="100.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_13" name="Vidange huile moteur">
+      <Date date="20110714" engine="167.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_14" name="Changement filtre à huile">
+      <Date date="20110714" engine="167.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_24" name="Anode de la ligne d'arbre">
+      <Date date="20111111" engine="279.0" />
+      <Remark>Changement de l'anode</Remark>
+    </Entry>
+    <Entry type="Task_Task_15" name="Rinçage du système de refroidissement">
+      <Date date="20111231" engine="279.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_15" name="Rinçage du système de refroidissement">
+      <Date date="20101221" engine="135.0" />
+      <Remark />
+    </Entry>
+    <Entry type="PONCT" name="Remise à l'eau">
+      <Date date="20120614" engine="279.0" />
+      <Remark>Remise à l'eau. Démarrage au 1/4 de tour</Remark>
+    </Entry>
+    <Entry type="Task_Task_13" name="Vidange huile moteur">
+      <Date date="20120628" engine="368.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_14" name="Changement filtre à huile">
+      <Date date="20120628" engine="368.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_15" name="Rinçage du système de refroidissement">
+      <Date date="20121125" engine="450.0" />
+      <Remark>Hivernage du moteur avec liquide antigel / anti-corrosion</Remark>
+    </Entry>
+    <Entry type="Task_Task_26" name="Carénage">
+      <Date date="20100611" engine="6.0" />
+      <Remark>carénage à Leucate</Remark>
+    </Entry>
+    <Entry type="Task_Task_26" name="Carénage">
+      <Date date="20111111" engine="279.0" />
+      <Remark>Carénage à Leucate suite à inspection de la coque pour la vente.</Remark>
+    </Entry>
+    <Entry type="Task_Task_9" name="Nettoyage bloc moteur">
+      <Date date="20121125" engine="450.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_27" name="Nettoyage des fonds">
+      <Date date="20121125" engine="450.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_26" name="Carénage">
+      <Date date="20130202" engine="450.0" />
+      <Remark>Carénage à Carentan</Remark>
+    </Entry>
+    <Entry type="Task_Task_10" name="Changement pré-filtre à carburant">
+      <Date date="20130202" engine="450.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_13" name="Vidange huile moteur">
+      <Date date="20130730" engine="595.0" />
+      <Remark />
+    </Entry>
+    <Entry type="PONCT" name="Complément de liquide de refroidissement">
+      <Date date="20130827" engine="713.0" />
+      <Remark>Ajout d'un peu de liquide de refroidissement car le niveau du liquide dans le vase d'expansion est au minimum.</Remark>
+    </Entry>
+    <Entry type="Task_Task_7" name="Rotor de pompe à eau de mer">
+      <Date date="20130827" engine="713.0" />
+      <Remark>Après vérification du rotor, je l'ai laissé car il est en excellent état.</Remark>
+    </Entry>
+    <Entry type="Task_Task_26" name="Carénage">
+      <Date date="20130827" engine="713.0" />
+      <Remark>Carénage sous marin terminé</Remark>
+    </Entry>
+    <Entry type="Task_Task_13" name="Vidange huile moteur">
+      <Date date="20131017" engine="840.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_25" name="Vidange inverseur">
+      <Date date="20131106" engine="887.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_10" name="Changement pré-filtre à carburant">
+      <Date date="20131106" engine="887.0" />
+      <Remark>Pas d'eau dans le préfiltre</Remark>
+    </Entry>
+    <Entry type="Task_Task_28" name="Purge du pré-filtre à GO">
+      <Date date="20131106" engine="887.0" />
+      <Remark>Pas d'eau ...</Remark>
+    </Entry>
+    <Entry type="Task_Task_1" name="Changement filtre à carburant">
+      <Date date="20131106" engine="887.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_6" name="Nettoyage filtre à air">
+      <Date date="20131106" engine="887.0" />
+      <Remark>Propre.&#xD;
+Il n'y a rien dans le filtre à air, même pas une mousse pour absorber graisse, poussière et bruit.</Remark>
+    </Entry>
+    <Entry type="Task_Task_15" name="Rinçage du système de refroidissement">
+      <Date date="20131201" engine="900.0" />
+      <Remark>Avec hivernage du moteur avec du liquide antigel et anti-corrosion</Remark>
+    </Entry>
+    <Entry type="Task_Task_7" name="Rotor de pompe à eau de mer">
+      <Date date="20140220" engine="900.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_29" name="Changement bague hydrolube">
+      <Date date="20140220" engine="900.0" />
+      <Remark>Pas difficile à enlever</Remark>
+    </Entry>
+    <Entry type="PONCT" name="Remise à l'eau">
+      <Date date="20140225" engine="900.0" />
+      <Remark>Démarrage au 1/4 de tour</Remark>
+    </Entry>
+    <Entry type="Task_Task_22" name="Changement de la courroie">
+      <Date date="20140510" engine="1031.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_23" name="Changement joint spi du rotor à eau de mer">
+      <Date date="20140510" engine="1031.0" />
+      <Remark>Changement du joint spi effectué après l'observation d'une fuite&#xD;
+mineure d'eau de mer au niveau de la pompe à eau de mer.&#xD;
+Un joint spi bleu est dorénavant disponible en rechange.</Remark>
+    </Entry>
+    <Entry type="Task_Task_14" name="Changement filtre à huile">
+      <Date date="20140524" engine="1073.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_13" name="Vidange huile moteur">
+      <Date date="20140524" engine="1073.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_21" name="Changement thermostat">
+      <Date date="20140701" engine="1166.0" />
+      <Remark>L'ancien thermostat était comme neuf.&#xD;
+Il se trouve désormais dans les pièces de rechange.&#xD;
+L'eau de mer n'entartre pas les pièces à son contact.</Remark>
+    </Entry>
+    <Entry type="Task_Task_19" name="Nettoyage du faisceau d'échangeur">
+      <Date date="20140701" engine="1166.0" />
+      <Remark>Le faisceau d'échangeur est comme neuf.&#xD;
+L'eau de mer n'entartrant pas les pièces en son contact.</Remark>
+    </Entry>
+    <Entry type="Task_Task_18" name="Vidange liquide de refroidissement">
+      <Date date="20140701" engine="1166.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_12" name="Batteries">
+      <Date date="20140902" engine="1248.0" />
+      <Remark>Changement des batteries de servitude.&#xD;
+Modification de l'installation :&#xD;
+-Branchement de la batterie moteur sur éolienne&#xD;
+-Branchement frigo sur la sortie "charge" du régulateur solaire VICTRON&#xD;
+-Suppression d'un shunt inutilisé</Remark>
+    </Entry>
+    <Entry type="Task_Task_13" name="Vidange huile moteur">
+      <Date date="20140924" engine="1286.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_31" name="Coude d'échappement">
+      <Date date="20131106" engine="887.0" />
+      <Remark>Usée à 3%</Remark>
+    </Entry>
+    <Entry type="Task_Task_31" name="Coude d'échappement">
+      <Date date="20130827" engine="713.0" />
+      <Remark>Changement de l'anode</Remark>
+    </Entry>
+    <Entry type="Task_Task_31" name="Coude d'échappement">
+      <Date date="20130730" engine="595.0" />
+      <Remark>Anode usée à 40%</Remark>
+    </Entry>
+    <Entry type="Task_Task_31" name="Coude d'échappement">
+      <Date date="20120628" engine="368.0" />
+      <Remark>Anode du coude d'échappement usée à 30%</Remark>
+    </Entry>
+    <Entry type="Task_Task_31" name="Coude d'échappement">
+      <Date date="20110711" engine="166.0" />
+      <Remark>Anode usée à 20%</Remark>
+    </Entry>
+    <Entry type="Task_Task_31" name="Serrage vis et collier">
+      <Date date="20131106" engine="887.0" />
+      <Remark>Une vis de fixation du cable d'accéllérateur/inverseur était prète à tomber dans les fonds.</Remark>
+    </Entry>
+    <Entry type="Task_Task_31" name="Fixations">
+      <Date date="20131106" engine="887.0" />
+      <Remark>Tout est bien fixé</Remark>
+    </Entry>
+    <Entry type="Task_Task_31" name="Contrôle niveau 2">
+      <Date date="20141018" engine="1298.0" />
+      <Remark>Cable accelerateur / inverseur OK&#xD;
+Anode coude d'échappement usée à 25%&#xD;
+Vis collier ok&#xD;
+fixation bloc moteur OK&#xD;
+fixation alternateur et démarreur ok</Remark>
+    </Entry>
+    <Entry type="Task_Task_10" name="Changement pré-filtre à carburant">
+      <Date date="20141018" engine="1298.0" />
+      <Remark>Le filtre était sale ! Il faut le faire toutes les 200 heures dorénavant !</Remark>
+    </Entry>
+    <Entry type="Task_Task_28" name="Purge du pré-filtre à GO">
+      <Date date="20141018" engine="1298.0" />
+      <Remark>Fait avec le changement du filtre. &#xD;
+Pas de trace d'eau remarqué dans le gasoil</Remark>
+    </Entry>
+    <Entry type="Task_Task_11" name="Alignement du moteur">
+      <Date date="20100628" engine="6.0" />
+      <Remark />
+    </Entry>
+    <Entry type="Task_Task_1" name="Changement filtre à carburant">
+      <Date date="20141018" engine="1298.0" />
+      <Remark>Le filtre à carburant était propre</Remark>
+    </Entry>
+    <Entry type="Task_Task_32" name="Contrôle niveau 1">
+      <Date date="20141018" engine="1298.0" />
+      <Remark>Tension courroie OK&#xD;
+Niveau d'huile moteur OK&#xD;
+Niv de liq de refroidissement OK&#xD;
+Tension batterie 13,2 V&#xD;
+Niv liquide inverseur OK</Remark>
+    </Entry>
+    <Entry type="Task_Task_27" name="Nettoyage des fonds">
+      <Date date="20141018" engine="1298.0" />
+      <Remark>Un peu de liquide de refroidissement dans les fonds</Remark>
+    </Entry>
+    <Entry type="Task_Task_9" name="Nettoyage bloc moteur">
+      <Date date="20141018" engine="1298.0" />
+      <Remark>Rien de suspect</Remark>
+    </Entry>
+    <Entry type="Task_Task_25" name="Vidange inverseur">
+      <Date date="20141018" engine="1298.0" />
+      <Remark>Huile à peu près propre</Remark>
+    </Entry>
+    <Entry type="Task_Task_26" name="Carénage">
+      <Date date="20141021" engine="1298.0" />
+      <Remark>Carénage complet avec l'aide de Amberto du Cap Vert pour 30 euros</Remark>
+    </Entry>
+    <Entry type="Task_Task_24" name="Anode de la ligne d'arbre">
+      <Date date="20141021" engine="1298.0" />
+      <Remark>Usée à 40%</Remark>
+    </Entry>
+    <Entry type="Task_Task_11" name="Alignement du moteur">
+      <Date date="20160212" engine="1943.0" />
+      <Remark>Test</Remark>
+    </Entry>
+  </Historic>
+</EngineMaintenance>
+

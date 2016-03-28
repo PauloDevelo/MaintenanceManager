@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<project name="Controler" basedir=".">
+	<property name="src" location="src"/>
+	<property name="build" location="build"/>
+	<property name="log4j" value="..\\CommonLibraries\\lib\\log4j-1.2.17.jar"/>
+	<property name="jssc" value="..\\CommonLibraries\\lib\\jSSC-2.6.0-Release\\jssc.jar"/>
+	<property name="jdom" value="..\\CommonLibraries\\lib\\jdom.jar"/>
+	<property name="jxl" value="..\\CommonLibraries\\lib\\jxl.jar"/>
+	<property name="pdfbox" value="..\\CommonLibraries\\lib\\pdfbox-app-1.8.7.jar"/>
+	<property name="dirDeploy" value="..\\EngineMaintenance"/>
+	
+		
+	<target name="clean">
+        <delete dir="${build}"/>
+    </target>
+	
+    <target name="compile" depends="clean">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes" encoding="Cp1252">
+        	<classpath>
+        		<pathelement path="${log4j}"/>
+        		<pathelement path="${jssc}"/>
+        		
+        		<pathelement path="..\\DataModel\\build\\classes"/>
+        		<pathelement path="..\\Tools\\build\\classes"/>
+        		<pathelement path="..\\UI\\build\\classes"/>
+        	</classpath>
+        </javac>
+    </target>
+	
+    <target name="jar" depends="compile">
+        <mkdir dir="build/jar"/>
+        <jar destfile="build/jar/MaintenanceEngine.jar" basedir="build/classes">
+        	<zipfileset includes="**/*" src="${log4j}"/>
+        	<zipfileset includes="**/*" src="${jssc}"/>
+        	<zipfileset includes="**/*" src="${jdom}"/>
+        	<zipfileset includes="**/*" src="${jxl}"/>
+        		
+        	<zipfileset includes="**/*" src="..\\DataModel\\build\\jar\\DataModel.jar"/>
+        	<zipfileset includes="**/*" src="..\\Tools\\build\\jar\\Tools.jar"/>
+        	<zipfileset includes="**/*" src="..\\UI\\build\\jar\\UI.jar"/>
+        	
+            <manifest>
+                <attribute name="Main-Class" value="enginemonitor.controler.StartingCtrl"/>
+            </manifest>
+        </jar>
+    </target>
+	
+    <target name="run" depends="jar">
+        <java jar="build/jar/MaintenanceEngine.jar" fork="true">
+        </java>
+    </target>
+	
+	<target name="buildAll">
+		<ant antfile="../Tools/build.xml" target="jar" useNativeBasedir="true" inheritAll="false"/>
+		<ant antfile="../DataModel/build.xml" target="jar" useNativeBasedir="true" inheritAll="false"/>
+		<ant antfile="../UI/build.xml" target="jar" useNativeBasedir="true" inheritAll="false"/>
+		<antcall target="jar"/>
+	</target>
+	
+	<target name="deploy" depends="buildAll">
+		<delete dir="${dirDeploy}"/>
+		<mkdir dir="${dirDeploy}"/>
+		
+		<copy file="engineMonitor.bat" tofile="${dirDeploy}/engineMonitor.bat"/>
+		<copy file="log4j.xml" tofile="${dirDeploy}/log4j.xml"/>
+		<copy file="engineMonitor.bat" tofile="${dirDeploy}/engineMonitor.bat"/>
+		<copy file="EngineMonitor.xml" tofile="${dirDeploy}/EngineMonitor.xml"/>
+		<copy file="./build/jar/MaintenanceEngine.jar" tofile="${dirDeploy}/MaintenanceEngine.jar"/>
+		<copydir src="properties" dest="${dirDeploy}/properties"/>
+		
+	</target>
+</project>

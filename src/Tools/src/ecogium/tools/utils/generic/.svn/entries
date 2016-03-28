@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="5"
+   name=""
+   committed-date="2014-11-26T23:35:59.310309Z"
+   url="svn://localhost/EngineMonitor/trunk/Tools/src/ecogium/tools/utils/generic"
+   last-author="paul"
+   kind="dir"
+   repos="svn://localhost"
+   revision="5"/>
+<entry
+   name="subscribableList"
+   kind="dir"/>
+</wc-entries>

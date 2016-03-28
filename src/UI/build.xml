@@ -1,0 +1,82 @@
+<?xml version="1.0"?>
+<project name="UI" basedir=".">
+	<property name="src" location="src"/>
+	<property name="build" location="build"/>
+	<property name="pathlog4j" value="..\\CommonLibraries\\lib\\log4j-1.2.17.jar"/>
+	<property name="pathjssc" value="..\\CommonLibraries\\lib\\jSSC-2.6.0-Release\\jssc.jar"/>
+	<property name="pathjdom" value="..\\CommonLibraries\\lib\\jdom.jar"/>
+	
+	<property name="pathosgi" value="C:\\Program Files\\eclipse\\plugins\\org.eclipse.osgi_3.10.0.v20140606-1445.jar"/>
+	<property name="pathcommands" value="C:\\Program Files\\eclipse\\plugins\\org.eclipse.core.commands_3.6.100.v20140528-1422.jar"/>
+	<property name="pathcommon" value="C:\\Program Files\\eclipse\\plugins\\org.eclipse.equinox.common_3.6.200.v20130402-1505.jar"/>
+	<property name="pathregistry" value="C:\\Program Files\\eclipse\\plugins\\org.eclipse.equinox.registry_3.5.400.v20140428-1507.jar"/>
+	<property name="pathruntime" value="C:\\Program Files\\eclipse\\plugins\\org.eclipse.core.runtime_3.10.0.v20140318-2214.jar"/>
+	<property name="pathtext" value="C:\\Program Files\\eclipse\\plugins\\org.eclipse.text_3.5.300.v20130515-1451.jar"/>
+	<property name="pathwin32" value="C:\\Program Files\\eclipse\\plugins\\org.eclipse.swt.win32.win32.x86_3.103.0.v20140605-2012.jar"/>
+	<property name="pathjface" value="C:\\Program Files\\eclipse\\plugins\\org.eclipse.jface_3.10.0.v20140604-0740.jar"/>
+	<property name="pathtext" value="C:\\Program Files\\eclipse\\plugins\\org.eclipse.jface.text_3.9.0.v20140521-1657.jar"/>
+	<property name="pathworkbench" value="C:\\Program Files\\eclipse\\plugins\\org.eclipse.ui.workbench_3.106.0.v20140530-0732.jar"/>
+	<property name="pathicu" value="C:\\Program Files\\eclipse\\plugins\\com.ibm.icu_52.1.0.v201404241930.jar"/>
+	<property name="pathforms" value="C:\\Program Files\\eclipse\\plugins\\org.eclipse.ui.forms_3.6.100.v20140422-1825.jar"/>
+	<property name="pathswing2swt" value=".\\swing2swt.jar"/>
+	
+	<property name="DataModel" value="..\\DataModel\\build\\classes"/>
+		
+		
+	<target name="clean">
+        <delete dir="${build}"/>
+    </target>
+	
+    <target name="compile">
+        <mkdir dir="build/classes"/>
+        <javac srcdir="src" destdir="build/classes" encoding="Cp1252">
+        	<classpath>
+        		<pathelement path="${pathlog4j}"/>
+        		<pathelement path="${pathjssc}"/>
+        		<pathelement path="${pathjdom}"/>
+        		
+        		<pathelement path="${pathosgi}"/>
+        		<pathelement path="${pathcommands}"/>
+        		<pathelement path="${pathcommon}"/>
+        		<pathelement path="${pathregistry}"/>
+        		<pathelement path="${pathruntime}"/>
+        		<pathelement path="${pathtext}"/>
+        		<pathelement path="${pathwin32}"/>
+        		<pathelement path="${pathjface}"/>
+        		<pathelement path="${pathtext}"/>
+        		<pathelement path="${pathworkbench}"/>
+        		<pathelement path="${pathicu}"/>
+        		<pathelement path="${pathforms}"/>
+        		<pathelement path="${pathswing2swt}"/>
+        		
+        		<pathelement path="${DataModel}"/>
+        	</classpath>
+        </javac>
+    </target>
+	
+	<target name="jar" depends="compile">
+        <mkdir dir="build/jar"/>
+        <jar destfile="build/jar/UI.jar" basedir="build/classes">
+        	<fileset dir="${src}">
+				<exclude name="**/*.java"/>
+        	</fileset>
+        	        	
+        	<zipfileset includes="**/*" excludes="META-INF/*" src="${pathosgi}"/>
+        	<zipfileset includes="**/*" excludes="META-INF/*" src="${pathcommands}"/>
+        	<zipfileset includes="**/*" excludes="META-INF/*" src="${pathcommon}"/>
+        	<zipfileset includes="**/*" excludes="META-INF/*" src="${pathregistry}"/>
+        	<zipfileset includes="**/*" excludes="META-INF/*" src="${pathruntime}"/>
+        	<zipfileset includes="**/*" excludes="META-INF/*" src="${pathtext}"/>
+        	<zipfileset includes="**/*" excludes="META-INF/*" src="${pathwin32}"/>
+        	<zipfileset includes="**/*" excludes="META-INF/*" src="${pathjface}"/>
+        	<zipfileset includes="**/*" excludes="META-INF/*" src="${pathtext}"/>
+        	<zipfileset includes="**/*" excludes="META-INF/*" src="${pathworkbench}"/>
+        	<zipfileset includes="**/*" excludes="META-INF/*" src="${pathicu}"/>
+        	<zipfileset includes="**/*" excludes="META-INF/*" src="${pathforms}"/>
+        	<zipfileset includes="**/*" excludes="META-INF/*" src="${pathswing2swt}"/>
+        </jar>
+    </target>
+	
+	<target name="default" depends="jar" >
+    </target>
+</project>
