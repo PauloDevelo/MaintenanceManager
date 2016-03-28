@@ -21,6 +21,7 @@ This software developped in Java allow to :
 Everything (tasks and entries) are saved in a XML file. 
 
 If you want to use this software without compiling everything, you can download the content of EngineMaintenance directory. A jar file can be launched with the bat file if you have installed java 8.0.
+The file EngineMonitor.xml contains your maintenance plan and all the history of the maintenance done on your engine. The file EngineMonitor.xml in GitHub contains some examples of task. You will have probably remove some to add yours.
 
 Feedback would be appreciated !
 
